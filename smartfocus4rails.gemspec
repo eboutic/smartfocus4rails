@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,lib,config}/**/*"] + ["LICENSE", "Rakefile", "Gemfile", "README.md"]
   s.require_path = 'lib'  
 	
-	s.authors     = %('Bastien Gysler' 'eboutic.ch')
-	s.email       = %('basgys@gmail.com' 'tech@eboutic.ch')
+	s.authors     = ['Bastien Gysler', 'eboutic.ch']
+	s.email       = ['basgys@gmail.com', 'tech@eboutic.ch']
   s.homepage    = "https://github.com/eboutic/smartfocus4rails"
 
   s.add_dependency("smartfocus")

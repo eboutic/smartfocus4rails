@@ -13,15 +13,15 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'  
 	
 	s.authors     = ['Bastien Gysler', 'eboutic.ch']
-	s.email       = ['basgys@gmail.com', 'tech@eboutic.ch']
+	s.email       = 'tech@eboutic.ch'
   s.homepage    = "https://github.com/eboutic/smartfocus4rails"
 
   s.add_dependency("smartfocus")
   s.add_dependency("premailer", "~> 1.7.0")
   s.add_dependency("hpricot", "~> 0.8.0")
 
-  s.add_dependency("actionpack", ">= 3.2", "<= 4.0")
-  s.add_dependency("activemodel", ">= 3.2", "<= 4.0")
+  s.add_dependency("actionpack", ">= 3.2")
+  s.add_dependency("activemodel", ">= 3.2")
 
-  s.add_runtime_dependency("railties", ">= 3.2", "<= 4.0")
+  s.add_runtime_dependency("railties", ">= 3.2")
 end

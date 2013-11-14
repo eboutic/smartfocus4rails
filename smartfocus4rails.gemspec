@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 	s.email       = 'tech@eboutic.ch'
   s.homepage    = "https://github.com/eboutic/smartfocus4rails"
 
-  s.add_dependency("smartfocus")
+  s.add_dependency("smartfocus", "~> 1.0.0")
   s.add_dependency("premailer", "~> 1.7.0")
   s.add_dependency("hpricot", "~> 0.8.0")
 

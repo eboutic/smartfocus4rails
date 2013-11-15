@@ -1,12 +1,24 @@
 Changelog
 =========
 
-1.0.0
+1.0.2 (2013-11-15)
 ------
-Initial Commit (Forked from https://github.com/basgys/emailvision4rails)
-Changed Emailvision4rails to Smartfocus4rails (class and namespace name)
+Add optional params to Message::create_and_add_action_url.
+    Params optional is
+     - page_ok : The URL to call if the action was successful
+     - message_ok : The message to display if the action was successful
+     - page_error : The URL to call if the action was unsuccessful
+     - message_error : The message to display if the action was unsuccessful
+    Due to a bug in API this params is require. If you don't need this params, you must fill it with fake data.
+    page_ok and page_error can be any text. message_ok and message_error must be an real message id (with syntaxic error)
+    We reverse this workaround as soon as Smartfocus team resolve the issue.
 
-1.0.1
+1.0.1 (2013-11-14)
 ------
 Fix gemspec
 Relax Rails dependency (> 4.0)
+
+1.0.0 (2013-11-14)
+------
+Initial Commit (Forked from https://github.com/basgys/emailvision4rails)
+Changed Emailvision4rails to Smartfocus4rails (class and namespace name)

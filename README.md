@@ -11,7 +11,7 @@ Smartfocus4rails is a library used to manage messages and campaigns or more simp
 IMPORTANT
 ---------
 
-This is the official forked gem from https://github.com/basgys/emailvision4rails
+This is forked gem from https://github.com/basgys/emailvision4rails
 Bastien Gysler is the creator of this gem.
 The gem was rename to reflect the rename from emvailvision to smartfocus
 

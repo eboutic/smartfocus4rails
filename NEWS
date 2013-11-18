@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.3 (2013-11-18)
+------
+Deleting references to the initial author
+
 1.0.2 (2013-11-15)
 ------
 Add optional params to Message::create_and_add_action_url.

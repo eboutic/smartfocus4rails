@@ -8,15 +8,6 @@ Smartfocus4rails is a library used to manage messages and campaigns or more simp
 [![Coverage Status](https://coveralls.io/repos/eboutic/smartfocus4rails/badge.png)](https://coveralls.io/r/eboutic/smartfocus4rails)
 [![Dependency Status](https://gemnasium.com/eboutic/smartfocus4rails.png)](https://gemnasium.com/eboutic/smartfocus4rails)
 
-IMPORTANT
----------
-
-This is forked gem from https://github.com/basgys/emailvision4rails
-Bastien Gysler is the creator of this gem.
-The gem was rename to reflect the rename from emvailvision to smartfocus
-
-This version changed all Emailvision4rails class to Smartfocus4rails
-
 Install
 -------
 
@@ -71,14 +62,3 @@ More infos
 ----------
 
 If you want to dig deeper, Go see our wiki pages.
-
-Author
-------
-
-Funded by Bastien Gysler :: [bastiengysler.com](http://www.bastiengysler.com/) :: @basgys
-Smartfocus4rails gem is maintained by eboutic.ch
-
-License
--------
-
-eboutic is Copyright © 2007-2013 eboutic.ch. It is free software, and may be redistributed under the terms specified in the LICENSE file.

@@ -20,5 +20,4 @@ Relax Rails dependency (> 4.0)
 
 1.0.0 (2013-11-14)
 ------
-Initial Commit (Forked from https://github.com/basgys/emailvision4rails)
-Changed Emailvision4rails to Smartfocus4rails (class and namespace name)
+Initial Commit

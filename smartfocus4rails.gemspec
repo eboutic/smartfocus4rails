@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name = "smartfocus4rails"
   s.summary = "Smartfocus (ex Emailvision) library for Ruby on Rails"
   s.description = "Manage Smartfocus campaigns and messages from your rails application"
-  s.version = Smartfocus4rails::Version
+  s.version = Smartfocus4rails::VERSION
   s.date = Time.now.strftime('%Y-%m-%d')
   s.license = 'MIT'
 

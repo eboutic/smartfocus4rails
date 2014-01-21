@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/eboutic/smartfocus4rails"
 
   s.add_dependency("smartfocus", "~> 1.0.0")
-  s.add_dependency("premailer", "~> 1.7.0")
+  s.add_dependency("premailer", "~> 1.8.0")
   s.add_dependency("hpricot", "~> 0.8.0")
 
   s.add_dependency("actionpack", ">= 3.2")

@@ -8,8 +8,12 @@ module Smartfocus4rails
 
 		include AbstractController::Logger
 		include AbstractController::Rendering
-		include AbstractController::Layouts
-
+    if ::ActionView::VERSION::STRING >= '4.1'
+		  include ActionView::Layouts
+    else
+      include AbstractController::Layouts
+    end
+    
 		append_view_path "#{Rails.root}/app/views"
 
 		private_class_method :new

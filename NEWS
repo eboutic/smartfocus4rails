@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.4 (2014-04-08)
+------
+Support Rails 4.1
+Bump premailer 1.8
+
 1.0.3 (2013-11-18)
 ------
 Deleting references to the initial author
